@@ -12,8 +12,8 @@ export class ProductsService {
     return `Este es el controlador del catálogo de productos (products)`;
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} product`;
+  buscarProducto(nombre: string) {
+    return `This action returns a #${nombre} product`;
   }
 
   update(id: number, updateProductDto: UpdateProductDto) {
